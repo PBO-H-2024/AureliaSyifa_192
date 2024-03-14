@@ -15,5 +15,12 @@ public class Segitiga implements HitungBidang{
         this.b = b;
         this.c = c;
     }
-    
+    @Override
+    public double Luas(){
+        return (a*(Math.pow(c, 2)-Math.pow(a, 2)))/2;
+    }
+    @Override
+    public double Keliling(){
+        return a+b+c;
+    }
 }
